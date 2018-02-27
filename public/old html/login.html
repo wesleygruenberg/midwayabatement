@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Midway Abatement District</title>
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script async defer src="js/site.js"></script>
+		<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdByPF0euDTGkhQ-7biok3qHPIduV8H0w&callback=initMap">
+		</script>
+
+	</head>
+	
+	<body>
+		<header class = "page-header">
+			<a id="logo" href="index.html" > 
+			<img src="images/header_light.png" alt="Midway Logo" title="Midway Abatement District"/>
+			</a>
+			<div class="topnav" id="myTopnav">
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="wnv.html">West Nile Virus</a>
+				<a href="mosquito101.html">Mosquito 101</a>
+				<a href="ipm.html">Integrated Pest Management</a>
+				<a href="whatcanyoudo.html">What Can You Do?</a>
+				<div class="requestbutton">
+					<a href="requestservice.html">Request Service</a>
+				</div>
+				<div class="login-button">
+					<a href="login.html">Login</a>
+				</div>
+			</div>
+
+		</header>
+	
+	
+		<section class = "form-container" id = "login-container">
+			<h4>Login</h4>
+			<form action="/login" method="POST">
+				<div class="form-group">
+					<label class="form-label">Login:</label>
+					<input name="username" type="text" placeholder="Email Address" class="form-control">
+				</div>
+				<div class="form-group">
+					<label class="form-label">Password:</label>
+					<input name="password" type="password" placeholder="Password" class="form-control">
+				</div>
+				<button type="submit">Sign in</button>
+				<a class="button-link" href="register-user.html" role="button">Register</a>
+				<a class="button-link" href="service-request-administration.html" role="button">Dummy Login Link to Admin Page</a>
+			</form>
+		</section>
+		
+		
+		<footer class = "short-page-footer">
+			<p>
+			<strong>&copy; </strong>2017 Wes Gruenberg - Site Manager - The Clarke Group, Inc.
+			</p>
+		</footer>			
+		 
+
+	</body>
+
+
+
+</html>

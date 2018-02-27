@@ -1,0 +1,841 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Playfair+Display|Poppins:600|Saira');
+body  {
+    background: url(../images/mountains.png) no-repeat center center fixed;
+	background-size: cover;
+    background-color: #cccccc;
+	height: 100%;
+}
+
+* {box-sizing:border-box}
+
+
+
+/*BODY STYLES*/
+
+html * {
+	font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+	font-size: 16px;
+	font-family: 'Poppins', serif;
+	text-align: right;
+	color: #1a1a1a;
+	margin: auto;
+	padding-top: 90px;
+	padding-bottom: 6px;
+	padding-right: 14px;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+
+}
+
+h2 {
+
+	
+	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #1a1a1a;
+	border-bottom: 2px solid #a1a1a1;
+	
+}
+
+h3 {
+	color: #d9d9d9;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #a1a1a1;
+	
+}
+
+h4 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+	color: #ff5c33; 
+	text-transform: uppercase;
+	border-bottom: 2px solid #a1a1a1;
+	
+}
+
+
+section {
+	background-color: #f2f2f2;
+	padding: 3%;
+	padding-top: 0px;
+	margin-right: 20%;
+	margin-left: 5%;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	opacity: .9;
+	border-radius: 5px 5px;
+	border: 2px solid #a1a1a1;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+section ul, section ol, section p{
+	color: #373737;
+}
+
+
+ol {
+	line-height: 150%;
+}
+
+em {
+	color: #ff5c33;
+	font-style: normal;
+}
+
+.form-group {
+	color: black;
+	padding: 5px;
+	margin-left: 15%;
+}
+
+section a:link, section a:visited{
+    color: #ff5c33;
+    text-decoration: none;
+} 
+
+section a:visited{
+    color: #ff5c33;
+    text-decoration: none;
+} 
+
+
+section a:hover{
+	color: #006600;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+#map {
+    height: 500px;
+}
+
+/*TABLE STYLES*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	opacity: .99;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+
+/*HEADER STYLES*/
+/*HEADER STYLES*/
+
+.top-header ul {
+	list-style-type: none;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+.top-header a {
+	display: inline-block;
+	position: relative;
+	font-family: Calibri;
+	letter-spacing: 2px;
+	display: block;
+    color: black; 
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+	text-transform: uppercase;
+    font-size: 17px;
+}
+
+.top-header li {
+	float: right;
+}
+
+
+#login-button {
+	color: black;
+	background-color: white;
+}
+
+#contact{
+	color: black;
+	background-color: white;
+	float: right;
+}
+
+#contact:hover, #login-button:hover, .top-header li a:hover{
+	color: white;
+	background-color: #333;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	position: relative;
+	font-family: Calibri;
+	letter-spacing: 2px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+	text-transform: uppercase;
+    font-size: 17px;
+	
+}
+
+.topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	width: 100%;
+	
+}
+
+.topnav li{
+	float: left;
+}
+
+.topnav .first-child{
+	margin-left: 5%;
+}
+
+.topnav .last-child{
+	float: right;
+}
+
+
+
+.page-header {
+	background-color: white;
+	opacity: .85;
+	margin: 0px;
+}
+
+.page-header img{
+	display: block;
+	float: left;
+	padding-left: 14px;
+	padding-bottom: 4px;
+	margin: 0px;
+	opacity: .85;
+	max-height: 110px;
+	
+}
+
+
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav #currentpage a  {
+    background-color: gray;
+    color: white;
+}
+
+.topnav #currentpage a {
+    background-color: gray;
+    color: white;
+}
+
+.top-header #currentpage a{
+    background-color: gray;
+    color: white;
+}
+
+
+.topnav a.visited{
+	color: black;
+}
+
+#requestbg{
+	
+}
+
+#requestbutton {
+	display: inline-block;
+	background-color: red;
+	float: right;
+	
+}
+
+
+.logout-button{
+	background-color: red;
+	float: right;
+}
+
+/*FOOTER STYLES*/
+
+footer {
+	padding-left: 14px;
+	padding-right: 14px;
+	text-align: center;
+	background-color: white;
+	opacity: .85;
+	float: left;
+	width: 100%;
+}
+
+.page-footer {
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.short-page-footer{
+	position: absolute;
+	bottom: 0;
+}
+
+.footer-container{
+	
+	margin-left: 18%;
+}
+
+footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0px;
+	
+}
+
+footer a {
+	position: relative;
+	font-family: Calibri;
+	letter-spacing: 2px;
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+	margin-right: 5%;
+	margin-left: 5%;
+    padding: 10px 16px;
+    text-decoration: none;
+	text-transform: uppercase;
+    font-size: 17px;
+}
+
+footer li {
+	float: left;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border-right: 2px solid #a1a1a1;
+}
+
+footer .last-child{
+	border-right: 0px;
+}
+
+
+
+
+/*INDEX-PAGE STYLES*/
+.index-main-container{
+	
+	width: 50%;
+	float: left;
+	min-height: 100%;
+	height: auto ;
+	height: 100%;
+	margin: 0 auto 42px; /* the bottom margin is the negative value of the footer's height */
+	margin-left: 10%;
+	margin-top: 14px;
+}
+
+.index-section {
+	float: left;
+	margin-top: 14px;
+	padding-right: 14px;
+	padding-left: 14px;
+	padding-bottom:14px;
+	font-size: 14px;
+	margin-left: 14px;
+	background-color: white;
+	opacity: .85;
+	opacity: .9;
+	border-radius: 5px 5px;
+	border: 2px solid #a1a1a1;
+	background-color: #f2f2f2;
+	overflow: hidden;
+}
+
+#slideshow-container {
+	margin: auto;
+	margin-top: 14px;
+	padding-top: 10%;
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: black;
+	opacity: 85%;
+	display: block;
+}
+
+#slideshow-container img{
+	width: 100%;
+	height: 100%;
+
+}
+
+
+.mySlides {display:none}
+
+/* Caption text */
+.text {
+	display: none;
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	display: none;
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: relative;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#welcome img{
+	max-height: 200px;
+	width: auto;
+	height: auto;
+	margin: auto;
+	margin-right: 16px;
+	margin-top: 44px;
+	margin-bottom: 4px;
+	float: left;
+	border-radius: 5px 5px;
+	border: 2px solid #a1a1a1;
+}
+
+#welcome h2{
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 36px;
+	letter-spacing: 1px;
+	margin-bottom: 4px;
+
+}
+
+#news-bulletin {
+	position: absolute;
+	right: 10%;
+	margin-top: 14px;
+	width: 28%;
+	background-color: #333;
+	padding: 2%;
+	opacity: .9;
+	border-radius: 5px 5px;
+	border: 2px solid #a1a1a1;
+	display: inline-block;
+	float: right;
+}
+
+#news-bulletin p {
+	color: white;
+	font-size: 12px;
+	font-family: 'Saira';
+	
+}
+
+#news-bulletin a:link{
+    color: orange;
+    text-decoration: none;
+} 
+
+#news-bulletin a:visited{
+    color: yellow;
+    text-decoration: none;
+} 
+
+
+#news-bulletin a:hover{
+	color: white;
+
+}
+
+
+
+      #description {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+      }
+
+      #infowindow-content .title {
+        font-weight: bold;
+      }
+
+      #infowindow-content {
+        display: none;
+      }
+
+      #map #infowindow-content {
+        display: inline;
+      }
+
+      .pac-card {
+        margin: 10px 10px 0 0;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        background-color: #fff;
+        font-family: Roboto;
+      }
+
+      #pac-container {
+        padding-bottom: 12px;
+        margin-right: 12px;
+      }
+
+      .pac-controls {
+        display: inline-block;
+        padding: 5px 11px;
+      }
+
+      .pac-controls label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+      #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 400px;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+
+      #title {
+        color: #fff;
+        background-color: #4d90fe;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 6px 12px;
+      }
+      #target {
+        width: 345px;
+      }
+
+
+#home-map{
+	width: 98%;
+	margin-right: 14px;
+	margin-top: 14px;
+	padding: 5px;
+	float: left;
+}
+
+/*ABOUT-PAGE STYLES*/
+#about-map{
+	margin-right: 20%;
+	margin-left: 5%;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+/*WNV-PAGE STYLES*/
+
+
+#cdc-trap-image{
+	max-width: 20%;
+	height: auto;
+	float: right;
+	margin: 44px;
+	margin-right: 0px;
+	border-radius: 5px 5px;
+	border: 2px solid #a1a1a1;
+}
+
+#ramp-test-image{
+	max-width: 25%;
+	height: auto;
+	float: right;
+	margin: 44px;
+	margin-right: 0px;
+	border-radius: 5px 5px;
+	border: 2px solid #a1a1a1;
+}
+
+/*MOSQUITO101-PAGE STYLES*/
+
+#egg-raft-image{
+
+}
+
+#larva-image{
+
+}
+
+#adult-mosquito-image{
+
+}
+
+.mosquito101-image{
+	max-width: 30%;
+	height: auto;
+	float: right;
+	margin: 44px;
+	margin-right: 0px;
+	border-radius: 5px 5px;
+	border: 2px solid #a1a1a1;
+	
+}
+
+
+
+
+/*IPM-PAGE STYLES*/
+
+#dipper-cup-image{
+	float:right;
+	margin: 14px;
+	border-radius: 5px 5px;
+	border: 2px solid #a1a1a1;
+}
+
+#flood-irrigation-image{
+	max-width:100%;
+	height:auto;
+	margin: auto;
+	border-radius: 5px 5px;
+	border: 2px solid #a1a1a1;
+}
+
+#bp-image{
+	width: 50%;
+	max-width: 500px;
+	height: auto;
+	float: left;
+	margin: 14px;
+	border-radius: 5px 5px;
+	border: 2px solid #a1a1a1;
+}
+
+#truck-spray-image{
+	float: right;
+	max-width: 300px;
+	max-height: 400px;
+	height:auto;
+	margin: 14px;
+	border-radius: 5px 5px;
+	border: 2px solid #a1a1a1;
+	
+}
+
+#screen-barrier-image{
+	float: right;
+	max-width: 300px;
+	max-height: 50%;
+	height:auto;
+	margin: 14px;
+	border-radius: 5px 5px;
+	border: 2px solid #a1a1a1;
+}
+
+
+/*WHAT-CAN-YOU-DO-PAGE STYLES*/
+
+#breeding-sites-image {
+	background-color: #373737;
+	padding: .5cm;
+	display: block;
+	margin: auto;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	opacity: .9;
+	border: 2px solid #a1a1a1;
+	height: auto; 
+    width: auto;
+    max-width: 50%; 
+}
+
+
+
+/*LOGIN-PAGE STYLES*/
+.login-container{
+	margin-left: 75%;
+	float: right;
+	height: 100%;
+}
+
+#login-container, #register-user-form{
+	width: 40%;
+}
+
+#login-container .form-label, #register-user-form .form-label{
+	color: black;
+}
+
+#login-container h4, #login-container form-label, #login-container button, #register-user-form h4, #register-user-form button {
+	margin-left: 15%;
+	margin-bottom: 14px;
+}
+
+
+
+/*SERVICE REQUEST-PAGE STYLES*/
+
+#request-form h4{
+	margin-left: 15%;
+}
+
+#request-form{
+	width: 50%;
+}
+
+
+/*SERVICE REQUEST ADMINISTRATION STYLES*/
+.request-table-container{
+	background-color: white;
+	opacity: .85;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 5%;
+	
+}
+
+.tab-content{
+	display: in-line block;
+	background: #ededed;
+	padding: 15px;
+}
+
+.tab-content #current{
+	display: inherit;
+	
+}
+
+
+
+/*CONTACT-PAGE STYLES*/
+
+.column-1 {
+	width: 50%;
+	float: left;
+	
+}
+.column-1 form{
+	width: 30%;
+	display: inline;
+}
+
+.column-2{
+	width: 50%;
+	float: left;
+	
+}
+
+#contact-us h5{
+	font-family: 'Poppins', serif;
+	color: #1a1a1a;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	font-size: 52px;
+	margin: 0px;
+	padding: 4px;
+	border-bottom: 2px solid #a1a1a1;
+	text-align: center;
+}
+
+#contact-us h2{
+	font-size: 24px;
+	text-align: left;
+	padding-left: 8%;
+	letter-spacing: 0px;
+	border-bottom: 0px;
+}
+
+#contact-us p{
+	padding-bottom: 16px;
+	text-align: left;
+	font-size: 16px;
+	padding-left: 8%;
+}
+
+#contact-info p{
+	text-align: center;
+}

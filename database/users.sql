@@ -1,0 +1,10 @@
+insert into users (name, email, phone, address, city, password, id) values ('Charisse Danaher', 'cdanaher0@ifeng.com', '487-990-1962', '5 Dixon Hill', 'Poctol', 'ogQ2FOvqB', 1);
+insert into users (name, email, phone, address, city, password, id) values ('Luella Tonbridge', 'ltonbridge1@sogou.com', '356-785-9798', '2 Derek Lane', 'Guxi', '9BTigElTI', 2);
+insert into users (name, email, phone, address, city, password, id) values ('Annice Curless', 'acurless2@histats.com', '540-603-5955', '79216 Melrose Alley', 'Kadubadak', 'VN61fD', 3);
+insert into users (name, email, phone, address, city, password, id) values ('Valentine Fullerton', 'vfullerton3@tmall.com', '246-962-3868', '65 Calypso Pass', 'Mangas', 'G4ZeNfeNdBD', 4);
+insert into users (name, email, phone, address, city, password, id) values ('Crista Sciacovelli', 'csciacovelli4@topsy.com', '521-698-0479', '01461 Pleasure Junction', 'Tahe', 'EGMvhuD', 5);
+insert into users (name, email, phone, address, city, password, id) values ('Wilhelm Littleton', 'wlittleton5@upenn.edu', '212-515-2374', '89463 Mariners Cove Street', 'Posedarje', 'spzRi0dMgyf', 6);
+insert into users (name, email, phone, address, city, password, id) values ('Emmerich MacIlriach', 'emacilriach6@aboutads.info', '939-498-6393', '2 Cordelia Plaza', 'Santa Maria', 'ahmzt30lP', 7);
+insert into users (name, email, phone, address, city, password, id) values ('Leonie Eberle', 'leberle7@linkedin.com', '111-133-2772', '0609 Columbus Trail', 'Atalaia', 'XcXEViRE', 8);
+insert into users (name, email, phone, address, city, password, id) values ('Farand Canty', 'fcanty8@sfgate.com', '406-287-9644', '9 North Pass', 'Guandu', 'YfoQQSlO', 9);
+insert into users (name, email, phone, address, city, password, id) values ('Trevor Say', 'tsay9@trellian.com', '352-464-4487', '0749 Dovetail Crossing', 'Takanabe', 'CBGfynox', 10);
