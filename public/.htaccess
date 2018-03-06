@@ -6,7 +6,7 @@ Header set strict-transport-security "max-age=31536000;"
 # Disable unsafe inline/eval and plugins, only load scripts and stylesheets from
 # same origin, fonts from google, and images from same origin and imgur.
 # Sites should aim for policies like this.
-# Header set Content-Security-Policy "default-src 'none'; font-src 'self' https://fonts.gstatic.com; img-src 'self'; object-src 'none'; script-src 'self' https://maps.googleapis.com/; style-src 'self' https://fonts.googleapis.com; frame-ancestors 'self'; base-uri 'self';"
+Header set Content-Security-Policy "default-src 'none'; font-src 'self' https://fonts.gstatic.com; img-src 'self'; object-src 'none'; script-src 'self' https://maps.googleapis.com/; style-src 'self' https://fonts.googleapis.com; frame-ancestors 'self'; base-uri 'self';"
 
 # Only allow my site to frame itself
 Header set X-Frame-Options "SAMEORIGIN"
@@ -23,5 +23,5 @@ RewriteEngine On
 # Redirect from http to https
 RewriteCond %{HTTPS} off
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
