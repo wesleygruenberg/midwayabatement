@@ -202,6 +202,7 @@ function initAutocomplete() {
 function initialize() {
 
    initMap();
+   initAutocomplete();
 }
 
 
