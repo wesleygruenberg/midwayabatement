@@ -14,7 +14,7 @@ session_start();
 		<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
 		<script async defer src="js/site.js"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdByPF0euDTGkhQ-7biok3qHPIduV8H0w&libraries=places&callback=initialize"
-  
+         async defer
 		 ></script>
 	</head>
 	<body>
