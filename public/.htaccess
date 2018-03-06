@@ -12,7 +12,7 @@ Header set Content-Security-Policy "default-src 'none'; font-src 'self' https://
 Header set X-Frame-Options "SAMEORIGIN"
 
 # Block pages from loading when they detect reflected XSS attacks
-#Header set X-XSS-Protection "1; mode=block"
+Header set X-XSS-Protection "1; mode=block"
 
 # Prevent browsers from incorrectly detecting non-scripts as scripts
 #Header set X-Content-Type-Options "nosniff"
