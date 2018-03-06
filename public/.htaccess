@@ -9,7 +9,7 @@ Header set strict-transport-security "max-age=31536000;"
 Header set Content-Security-Policy "default-src 'none'; font-src 'self' https://fonts.gstatic.com; img-src 'self'; object-src 'none'; script-src 'self' https://maps.googleapis.com https://maps.gstatic.com; style-src 'self' https://fonts.googleapis.com; frame-ancestors 'self'; base-uri 'self';"
 
 # Only allow my site to frame itself
-#Header set X-Frame-Options "SAMEORIGIN"
+Header set X-Frame-Options "SAMEORIGIN"
 
 # Block pages from loading when they detect reflected XSS attacks
 #Header set X-XSS-Protection "1; mode=block"
