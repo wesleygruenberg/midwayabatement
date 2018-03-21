@@ -19,7 +19,7 @@ include_once ('session-handler-functions.php');
 
 			
 		<div id = "news-bulletin">
-			<h3>Program updates: 2017</h3>
+			<h3>Program updates: </h3>
 			<?php foreach($newsItems as $item) { ?>
 				<p><em><?= $item['item_date'] ?></em>: <?= htmlspecialchars($item['item_body']) ?></p>
 			<? } ?>
@@ -77,7 +77,7 @@ include_once ('session-handler-functions.php');
 			</div>
 
 
-				<div style="text-align:center">
+				<div style="text-align: center">
 				  <span class="dot"></span> 
 				  <span class="dot"></span> 
 				  <span class="dot"></span> 
