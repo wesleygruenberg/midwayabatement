@@ -16,6 +16,11 @@ html * {
 	font-family: 'Oxygen', sans-serif;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1 {
 	font-size: 16px;
 	font-family: 'Poppins', serif;
