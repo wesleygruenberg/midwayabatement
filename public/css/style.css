@@ -820,7 +820,6 @@ footer .last-child{
 }
 .column-1 form{
 	width: 30%;
-	display: inline-block;
 }
 
 .column-2{
@@ -836,6 +835,11 @@ footer .last-child{
     padding: 0;
     overflow: hidden;
 	width: 100%;
+}
+
+#contact-us li{
+	display: inline-block;
+	position: relative;
 }
 
 #contact-us h5{
