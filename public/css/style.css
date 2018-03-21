@@ -830,6 +830,14 @@ footer .last-child{
 	
 }
 
+#contact-us ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	width: 100%;
+}
+
 #contact-us h5{
 	font-family: 'Poppins', serif;
 	color: #1a1a1a;
