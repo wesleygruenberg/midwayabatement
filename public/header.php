@@ -8,6 +8,9 @@ session_start();
 	<head> 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
+		<meta name="description" content="Jefferson County, ID: Mosquito Abatement for the Midway Abatement District. Learn more about mosquito management and request service.">
+		<meta name="keywords" content="Mosquito Abatement, Mosquito Control, Jefferson County, Idaho, Rigby, Menan, Mud Lake, Lewisville, West Nile Virus, WNV, Eastern Idaho, Mosquitoes">
+		<meta name="author" content="Wes Gruenberg">
 		
 		<title><?php echo $title ?></title>
 		<link rel="shortcut icon" href="images/favicon.ico" />
