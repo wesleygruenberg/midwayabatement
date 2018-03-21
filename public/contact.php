@@ -24,7 +24,7 @@
 				</div>
 				<?php displayError('email'); ?>
 				<div class="form-group">
-					<textarea required rows="4" cols="50" name="message" placeholder= "Your message"><?= $_SESSION['presets']['message'] ?></textarea>
+					<textarea required rows="6" cols="30" name="message" placeholder= "Your message"><?= $_SESSION['presets']['message'] ?></textarea>
 					<?php displayError('message'); ?>
 				</div>
 				<div class="form-group">
