@@ -765,7 +765,9 @@ footer .last-child{
 }
 
 #request-form{
-	width: 50%;
+	
+	width: 100%;
+	max-width: 600px;
 }
 
 
