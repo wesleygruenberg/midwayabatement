@@ -7,12 +7,11 @@
 	<section id = "contact-us">
 		<h5>Contact Us</h5>
 		<h2>We want to help!</h2>
-		<p>Please contact us for special requests or inquiries not covered by 
-		our <a href="request-service.php">Request Service</a> form.</p> 
-		
 		<ul>
 		<li>
 		<div class = "column-1" id = "contact-form">
+		<p>Please contact us for special requests or inquiries not covered by 
+		our <a href="request-service.php">Request Service</a> form.</p> 
 			<form method="POST" action="contact-handler.php" autocomplete="off">
 				<div class="form-group">
 					<input required name="name" type="text" size="30" placeholder = "Name" value = "<?= $_SESSION['presets']['name'] ?>">
