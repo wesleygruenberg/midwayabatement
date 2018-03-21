@@ -5,7 +5,7 @@ body {
 }
 
 /* For devices 400px and larger: */
-@media only screen and (min-device-width: 400px) {
+@media only screen and (min-device-width: 700px) {
     body {
             background: url(../images/mountains.png) no-repeat center center fixed;
 			background-size: cover;
@@ -88,7 +88,7 @@ section {
 	border: 2px solid #a1a1a1;
 	font-size: 14px;
 	overflow: hidden;
-	max-width: 800px;
+	max-width: 1000px;
 }
 
 section ul, section ol, section p{
@@ -134,7 +134,9 @@ section a:hover{
 
 
 #map {
-    height: 500px;
+	width: 500px;
+	max-width: 80%;
+	height: auto;
 }
 
 /*TABLE STYLES*/
@@ -617,7 +619,7 @@ footer .last-child{
       }
 
 
-#home-map{
+#home-map, #welcome{
 	width: 98%;
 	margin-right: 14px;
 	margin-top: 14px;
