@@ -412,6 +412,7 @@ footer .last-child{
 
 #slideshow-container {
 	margin: auto;
+	margin-left: 10%;
 	margin-top: 14px;
 	padding-top: 10%;
 	position: relative;
