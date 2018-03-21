@@ -9,6 +9,9 @@
 		<h2>We want to help!</h2>
 		<p>Please contact us for special requests or inquiries not covered by 
 		our <a href="request-service.php">Request Service</a> form.</p> 
+		
+		<ul>
+		<li>
 		<div class = "column-1" id = "contact-form">
 			<form method="POST" action="contact-handler.php" autocomplete="off">
 				<div class="form-group">
@@ -30,6 +33,8 @@
 		
 			</form>
 		</div>
+		</li>
+		<li>
 		<div class = "column-2" id = "contact-info">
 				
 				<p><strong><em>Midway Abatement</em></strong>
@@ -41,6 +46,8 @@
 				<br>208-745-9049
 				<br>email: <a href="mailto:wgruenberg@clarke.com">wgruenberg@clarke.com</a></p>
 		</div>
+		</li>
+		</ul>
 	</section>
 		
 
