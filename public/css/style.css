@@ -389,7 +389,7 @@ footer .last-child{
 	height: auto ;
 	height: 100%;
 	margin: 0 auto 42px; /* the bottom margin is the negative value of the footer's height */
-	margin-left: 10%;
+	margin-left: 2%%;
 	margin-top: 14px;
 }
 
@@ -510,7 +510,7 @@ footer .last-child{
 
 #news-bulletin {
 	position: absolute;
-	right: 10%;
+	right: 5%;
 	margin-top: 14px;
 	width: 28%;
 	background-color: #333;
