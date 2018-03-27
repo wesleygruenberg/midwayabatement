@@ -761,7 +761,8 @@ footer .last-child{
 }
 
 #login-container, #register-user-form{
-	width: 40%;
+	width: 90%;
+	max-width: 800px;
 }
 
 #login-container .form-label, #register-user-form .form-label{
