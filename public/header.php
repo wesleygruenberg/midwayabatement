@@ -19,9 +19,10 @@ session_start();
 		<script async defer src="js/site.js"></script>
 
 		<script async src="https://maps.googleapis.com/maps/api/js?key=
-			AIzaSyDUGH4z1e0DlzL8lFIBSFimu5sPeJT19P0
-			&libraries=places&callback=initMap"
-		</script>
+AIzaSyDUGH4z1e0DlzL8lFIBSFimu5sPeJT19P0
+&libraries=places&callback=initMap"
+
+		 ></script>
 		 
 		 
 	</head>
