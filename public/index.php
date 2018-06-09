@@ -122,7 +122,7 @@ include_once ('session-handler-functions.php');
 			 
 			<div class = "index-section" id = "home-map">
 				<h4>Are you in Midway Abatement District?</h4>
-				<p>Enter your address, if you are in the yellow shaded area, you are within our jurisdiction!
+				<p>If you are in the yellow shaded area, you are within our jurisdiction!
 				If you fall within one of the red zones you are either in Roberts MAD (western zone located around Roberts) 
 				or Jefferson County MAD (eastern zone located around Ririe)</p>
 				<p><em>Contact Info</em><br>
