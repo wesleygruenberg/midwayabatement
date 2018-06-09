@@ -16,10 +16,14 @@ session_start();
 		<link rel="shortcut icon" href="images/favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
-		<script src="js/site.js"></script>
-		<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdByPF0euDTGkhQ-7biok3qHPIduV8H0w&libraries=places&callback=initMap"
+		<script async defer src="js/site.js"></script>
+		<script async src="https://maps.googleapis.com/maps/api/js?key=
+AIzaSyDUGH4z1e0DlzL8lFIBSFimu5sPeJT19P0
+&libraries=places&callback=initMap"
          defer
 		 ></script>
+		 
+		 
 	</head>
 	<body>
 		<header class = "page-header">
