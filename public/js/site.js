@@ -30,7 +30,7 @@ function showSlides() {
 
 
 /* Autocomplete portion of GoogleMaps API Does not load properly unless outside of window.onload() */
-
+/*
 function initMap() {
         var rigby = {lat: 43.6724, lng: -111.9150};
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -204,5 +204,8 @@ function initialize() {
    initMap();
 
 }
+
+
+*/
 
 
