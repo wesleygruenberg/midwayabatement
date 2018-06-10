@@ -132,6 +132,14 @@ include_once ('session-handler-functions.php');
 				<div id="map"></div>
 			</div>
 			
+			<iframe
+				  width="600"
+				  height="450"
+				  frameborder="0" style="border:0"
+				  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDUGH4z1e0DlzL8lFIBSFimu5sPeJT19P0
+					&q=Space+Needle,Seattle+WA" allowfullscreen>
+				</iframe>
+			
 		</div>
 		
 <?php include('footer.php');?>
