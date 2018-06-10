@@ -30,7 +30,7 @@ function showSlides() {
 
 
 /* Autocomplete portion of GoogleMaps API Does not load properly unless outside of window.onload() */
-/*
+
 function initMap() {
         var rigby = {lat: 43.6724, lng: -111.9150};
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -39,7 +39,7 @@ function initMap() {
 		  mapTypeId: google.maps.MapTypeId.HYBRID
         });
 		var madLayer = new google.maps.KmlLayer({
-          url: 'http://cs401-website-wesleygruenberg.herokuapp.com/MAD_BOUNDARIES.KML',
+          url: 'http://midwayabatement.herokuapp.com/MAD_BOUNDARIES.KML',
           map: map
         });
 		  var marker = new google.maps.Marker({
@@ -47,7 +47,7 @@ function initMap() {
           map: map
         });
 		var countyBoundaryLayer = new google.maps.KmlLayer({
-          url: 'http://cs401-website-wesleygruenberg.herokuapp.com/JEFFERSON_COUNTY_BOUNDARY.KML',
+          url: 'http://midwayabatement.herokuapp.com/JEFFERSON_COUNTY_BOUNDARY.KML',
           map: map
         });
 
@@ -206,14 +206,3 @@ function initialize() {
 }
 
 
-*/
-
-function initMap() {
-  // The location of Uluru
-  var uluru = {lat: -25.344, lng: 131.036};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
