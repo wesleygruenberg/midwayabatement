@@ -132,13 +132,24 @@ include_once ('session-handler-functions.php');
 				<div id="map"></div>
 			</div>
 			
-			<iframe
-				  width="600"
-				  height="450"
-				  frameborder="0" style="border:0"
-				  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDUGH4z1e0DlzL8lFIBSFimu5sPeJT19P0
-					&q=Space+Needle,Seattle+WA" allowfullscreen>
-				</iframe>
+			    <div id="map2"></div>
+    <script>
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map2'), {
+          zoom: 11,
+          center: {lat: 41.876, lng: -87.624}
+        });
+
+        var ctaLayer = new google.maps.KmlLayer({
+          url: 'http://googlemaps.github.io/js-v2-samples/ggeoxml/cta.kml',
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUGH4z1e0DlzL8lFIBSFimu5sPeJT19P0&callback=initMap">
+    </script>
 			
 		</div>
 		
