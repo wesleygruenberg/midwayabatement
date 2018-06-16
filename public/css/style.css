@@ -561,7 +561,7 @@ footer .last-child{
         display: none;
       }
 
-      #map #infowindow-content {
+      #infowindow-content {
         display: inline;
       }
 

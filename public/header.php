@@ -16,7 +16,7 @@ session_start();
 		<link rel="shortcut icon" href="images/favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
-		<script async defer src="js/site.js"></script>
+		<script src="js/site.js"></script>
 
 		<script async src="https://maps.googleapis.com/maps/api/js?key=
 AIzaSyDUGH4z1e0DlzL8lFIBSFimu5sPeJT19P0
