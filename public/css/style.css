@@ -134,8 +134,8 @@ section a:hover{
 
 
 #map {
-	width: 100%;
-	height: auto;
+		height: 400px;  /* The height is 400 pixels */
+        width: 100%;
 }
 
 /*TABLE STYLES*/
