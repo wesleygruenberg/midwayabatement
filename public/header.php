@@ -18,11 +18,11 @@ session_start();
 		<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
 		<script src="js/site.js"></script>
 
-		<script async src="https://maps.googleapis.com/maps/api/js?key=
-AIzaSyDUGH4z1e0DlzL8lFIBSFimu5sPeJT19P0
-&libraries=places&callback=initMap"
+	
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUGH4z1e0DlzL8lFIBSFimu5sPeJT19P0&callback=initMap">
+    </script>
 
-		 ></script>
 		 
 		 
 	</head>

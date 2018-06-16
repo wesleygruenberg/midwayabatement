@@ -1,6 +1,6 @@
 
 
-
+/*
 
 window.onload = function(e) {
 
@@ -27,6 +27,7 @@ function showSlides() {
 			
 	
 }
+*/
 
 
 /* Autocomplete portion of GoogleMaps API Does not load properly unless outside of window.onload() */
