@@ -134,6 +134,7 @@ function initMap() {
 		  map.fitBounds(bounds);
         });
 		
+		initAutocomplete;
 		
 }
 
