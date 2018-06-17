@@ -125,9 +125,12 @@ include_once ('session-handler-functions.php');
 				<p>If you are in the yellow shaded area, you are within our jurisdiction!
 				If you fall within one of the red zones you are either in Roberts MAD (western zone located around Roberts) 
 				or Jefferson County MAD (eastern zone located around Ririe)</p>
-				<p><em>Contact Info</em><br>
-				Jefferson County MAD: 208-313-5826<br>
-				Roberts MAD: 208-521-5022</p>
+				<p>
+				<em>Contact Info</em><br>
+				<pre>
+				Jefferson County MAD:        <strong>208-313-5826</strong><br>
+				Roberts MAD:                 <strong>208-521-5022<strong></p>
+				<pre>
 				<input id="pac-input" class="controls" type="text" placeholder="Search Box">
 				<div id="map"></div>
 			</div>
