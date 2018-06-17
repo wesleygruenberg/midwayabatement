@@ -135,6 +135,7 @@ function initMap() {
 		  map.fitBounds(bounds);
         });
 		
+		map.setZoom(12);
 		initAutocomplete;
 		
 }
