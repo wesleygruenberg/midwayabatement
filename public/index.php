@@ -127,10 +127,8 @@ include_once ('session-handler-functions.php');
 				or Jefferson County MAD (eastern zone located around Ririe)</p>
 				<p>
 				<em>Contact Info</em><br>
-				<pre>
-				Jefferson County MAD:        <strong>208-313-5826</strong><br>
-				Roberts MAD:                 <strong>208-521-5022<strong></p>
-				<pre>
+				Jefferson County MAD:   &emsp;     <strong>208-313-5826</strong><br>
+				Roberts MAD:&emsp; &emsp; &emsp;               <strong>208-521-5022<strong></p>
 				<input id="pac-input" class="controls" type="text" placeholder="Search Box">
 				<div id="map"></div>
 			</div>
