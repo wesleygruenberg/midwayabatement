@@ -128,7 +128,7 @@ include_once ('session-handler-functions.php');
 				<p>
 				<em>Contact Info</em><br>
 				Jefferson County MAD:   &emsp; <strong>208-313-5826</strong><br>
-				Roberts MAD:&emsp; &emsp; &emsp;&emsp;<strong>208-521-5022<strong></p>
+				Roberts MAD:&emsp; &emsp; &emsp;&emsp;&emsp;<strong>208-521-5022<strong></p>
 				<input id="pac-input" class="controls" type="text" placeholder="Search Box">
 				<div id="map"></div>
 			</div>
