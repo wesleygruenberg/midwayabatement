@@ -39,10 +39,6 @@ function initMap() {
           center: rigby,
 		  mapTypeId: google.maps.MapTypeId.HYBRID
         });
-		var countyBoundaryLayer = new google.maps.KmlLayer({
-          url: 'http://midwayabatement.herokuapp.com/JEFFERSON_COUNTY_BOUNDARY.KML',
-          map: map
-        });		
 		var madLayer = new google.maps.KmlLayer({
           url: 'http://midwayabatement.herokuapp.com/MAD_BOUNDARIES.KML',
           map: map
@@ -51,7 +47,10 @@ function initMap() {
           position: rigby,
           map: map
         });
-
+		var countyBoundaryLayer = new google.maps.KmlLayer({
+          url: 'http://midwayabatement.herokuapp.com/JEFFERSON_COUNTY_BOUNDARY.KML',
+          map: map
+        });
 
 		        // Create the search box and link it to the UI element.
         var input = document.getElementById('pac-input');
@@ -135,7 +134,6 @@ function initMap() {
 		  map.fitBounds(bounds);
         });
 		
-		map.setZoom(12);
 		initAutocomplete;
 		
 }
