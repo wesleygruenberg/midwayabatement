@@ -38,7 +38,7 @@
 		<div class = "column-2" id = "contact-info">
 				
 				<p><strong><em>Midway Abatement</em></strong>
-				<br>PO Box 123
+				<br>PO Box 422
 				<br>Rigby, Idaho</p>
 				
 				<p><strong><em>Clarke Environmental Mosquito Management</em></strong>
